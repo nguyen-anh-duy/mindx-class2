@@ -49,4 +49,11 @@ var RomanNumber = {
 var soVidu = "II"
 var RomanToNumber = (roman) =>{
     let {I, V, X, L, C, D, M } = roman;
+    let result = soVidu.split("");
+    for (let i=0; i<result.length; i++){
+        if(result[i]==I){
+            console.log(I);
+        }
+    }
 }
+RomanToNumber(RomanNumber);
