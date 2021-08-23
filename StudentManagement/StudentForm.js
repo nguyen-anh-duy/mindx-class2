@@ -28,8 +28,8 @@ export default class StudentForm extends Component {
                         <div><label htmlFor="id">MSSV </label>
                             <input type="text" name="id" onChange={this.onChangeHandle} value={this.state.id} />
                         </div>
-                        <div><label htmlFor="fullname">fullname </label>
-                            <input type="text" name="fullname" onChange={this.onChangeHandle} value={this.state.fullname} />
+                        <div><label htmlFor="fullName">fullName </label>
+                            <input type="text" name="fullName" onChange={this.onChangeHandle} value={this.state.fullname} />
                         </div>
                         <div><label htmlFor="phoneNumber">phoneNumber </label>
                             <input type="text" name="phoneNumber" onChange={this.onChangeHandle} value={this.state.phoneNumber} />

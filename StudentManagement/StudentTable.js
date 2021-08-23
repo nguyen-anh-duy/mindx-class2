@@ -2,17 +2,15 @@ import React, { Component } from 'react'
 
 export default class StudentTable extends Component {
     render() {
-        const {students=[]} = this.props.students;
+        const {students=[]} = this.props;
         return (
             <div>
-                <table>
-                    <thead>
+                <table><thead>
                         <tr><th>Mã SV</th>
                             <th>Họ tên</th>
                             <th>Số ĐT</th>
                             <th>Email</th>
-                        </tr>
-                    </thead>
+                        </tr></thead>
                     <tbody>
                         { students.length>0 ? students.map((student) =>{
                                 const {id, fullName, phoneNumber, email} = student;
