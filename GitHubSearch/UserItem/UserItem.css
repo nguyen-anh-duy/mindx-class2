@@ -1,0 +1,12 @@
+.userItem {
+    align-self: center;
+}
+.userAvatar {
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+}
+.userName {
+    margin-top: 0;
+    margin-bottom: 0;
+}
